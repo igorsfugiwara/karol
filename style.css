@@ -1,0 +1,13 @@
+nav{
+    background-color: #333;
+    color: white;
+    height: 75px;
+    flex: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    justify-content: end;
+}
