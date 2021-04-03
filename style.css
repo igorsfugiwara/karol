@@ -1,13 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     background-color: #333;
     color: white;
-    height: 75px;
-    flex: center;
-    justify-content: center;
+    height:100px;
+    display: flex;
     align-items: center;
-    
+    justify-content: flex-end;
 }
 
-button{
+nav .nav-title{
+ justify-content: center;
+}
+
+nav .nav-button{
+    display: flex;
     justify-content: end;
+}
+.navbar{    
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+h1{
+
+    width: 50%;
+    font-size: 50px;
+}
+.bloco__um{
+    height: 90vh;
+    width: 70%;
+    margin: 0 auto;
+}
+.bloco__um--texto{
+    margin: 2em 0;
+    display: block;
+}
+
+.comeceagora{
+        background-color: gray;
+        color: white;
+        border-radius: 5px;
+        padding: .4em;
+}
+.entrar-jatemconta{
+    display: block;
 }
