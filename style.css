@@ -1,51 +1,118 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+
+/* font-family: 'Lexend', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif; */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
 }
-nav{
+
+nav {
     background-color: #333;
     color: white;
-    height:100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-nav .nav-title{
- justify-content: center;
+nav .nav-title {
+    color: white;
+    font-size: 2.5em;
+    z-index: 2;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
 }
 
-nav .nav-button{
+nav .nav-button {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
-.navbar{    
+
+.nav-button button {
+    display: flex;
+    z-index: 1;
+    padding: 0 1em;
+    width: 10em;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 }
-h1{
 
-    width: 50%;
-    font-size: 50px;
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    width: 80%;
+    font-size: 70px;
 }
-.bloco__um{
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+    letter-spacing: 2px;
+    margin: 1.2em 0;
+
+}
+
+.amarelo {
+    text-shadow: 2px 2px black;
+    color: #f5e21f;
+    font-weight: bolder;
+    background-color: #00000029;
+    display: flex;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.bloco__um {
     height: 90vh;
     width: 70%;
     margin: 0 auto;
 }
-.bloco__um--texto{
-    margin: 2em 0;
+
+.bloco__um--texto {
+    margin: 6em 0 0 0;
     display: block;
 }
 
-.comeceagora{
-        background-color: gray;
-        color: white;
-        border-radius: 5px;
-        padding: .4em;
+.comeceagora {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: .4em;
+    font-size: 20px;
 }
-.entrar-jatemconta{
+
+.entrar-jatemconta {
     display: block;
+}
+
+.botoes {
+    font-size: 1.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrar-jatemconta__jatemconta {
+    display: block;
+    border: none;
+    background-color: white;
+}
+
+.entrar-jatemconta__entrar {
+    width: 100%;
+    border-radius: 5px;
+    padding: .4em 3em;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+
 }
